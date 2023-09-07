@@ -18,6 +18,7 @@ public class Task2 {
         while (true) {
             System.out.println("Do you want to play the GAME, PRESS >> 1  OR  else PRESS >> 2");
             key = scan.nextInt();
+            scan.close();
 
             if (key == 1) {
                 System.out.println(
